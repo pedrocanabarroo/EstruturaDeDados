@@ -1,0 +1,20 @@
+Estruturas de Dados
+    - Disciplina ou um área da Ciência da Computação que estuda algoritmos para melhor gestão de memória
+    - Estruturas de Dados Físicas
+        - Variáveis - dependentes das linguagens de programação
+    
+    - Estruturas de Dados Abstratas
+        - Algoritmos de gestão de memórias
+        - Estruturas Lineares - vetores (matriz de 1 dimensão)
+            - Pilha (Stack): 
+                inserção, remoção, tamanho, localizar, topo
+            - Fila (Queue): 
+                inserção, remoção, tamanho, localizar, primeiro, último
+            - Lista (List): 
+                inserção, remoção, estaVazia, tamanho, localizar
+        - Estruturas Não Lineares - matrizes de N dimensões
+            - Árvore (Tree):
+                inserção, remoção, estaVazia, tamanho, localizar
+            - Grafo (Graph):
+                inserção, remoção, caminho, melhorCaminho
+            

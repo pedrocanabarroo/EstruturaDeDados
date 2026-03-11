@@ -1,0 +1,28 @@
+Estrutura de dados
+    Físicas: variáveis das linguagens de programação: int, float, char, string, vetores, matrizes...
+    Abstratas:
+        - Lista
+            - C++       - vector
+            - Java      - List, ArrayList, 
+            - C#
+            - Python 
+        - Pilha
+        - Fila
+        - Árvore
+        - Grafo
+
+        - algoritmos de gestão de memória: guardar/armazenar e buscar/pesquisar da melhor forma possível (eficiência)
+            - operações clássicas:
+                - inserir
+                    - C++      - push_back()
+                    - Java     - add()
+                    - C#       - Add()
+                    - Python   - append()
+                - remover pela posição ou pelo elemento
+                    - C++      - pop_back() ou erase()
+                    - Java     - remove()
+                    - C#       - Remove()
+                    - Python   - remove()
+                - localizar
+                - verifica tamanho da estrutura 
+                - se está vazia

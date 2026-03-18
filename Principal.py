@@ -1,11 +1,22 @@
-from Glicemia import Glicemia
-from minhas_funcoes import popular_lista_arquivo, exibir_lista, calcular_media
+from clima import Clima
 
 lista = []
-nome_base = "dados.csv"
 
-popular_lista_arquivo(lista, nome_base)
-exibir_lista(lista)
+linha = "2020, Janeiro, Quente, Pouca"
+dadosLinha = linha.split(", ")
 
-media = calcular_media(lista)
-print("Média Glicêmica: ", media)
+obj_clima = Clima(dadosLinha[0], dadosLinha[1], dadosLinha[2], dadosLinha[3])
+
+if obj_clima not in lista:
+    lista.append(obj_clima)
+
+linha = "2020, Janeiro, Frio, Pouca"
+dadosLinha = linha.split(", ")
+
+obj_clima = Clima(dadosLinha[0], dadosLinha[1], dadosLinha[2], dadosLinha[3])
+
+if obj_clima not in lista:
+    lista.append(obj_clima)
+
+for c in lista:
+    print(c)

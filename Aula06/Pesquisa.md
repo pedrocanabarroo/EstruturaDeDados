@@ -1,4 +1,3 @@
-````md
 # Estruturas de Dados em Java
 
 Este documento explica as principais estruturas da biblioteca de coleções do Java: List, ArrayList, LinkedList, HashSet, TreeSet, HashMap e TreeMap.
@@ -164,7 +163,4 @@ mapa.put("A", 1); // ficará ordenado
 
 ---
 
-```
-
-Se quiser, posso também gerar uma versão mais resumida ou adicionar exemplos mais avançados (como comparação de performance ou uso real em projetos).
 ```
